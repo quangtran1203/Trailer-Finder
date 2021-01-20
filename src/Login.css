@@ -1,0 +1,84 @@
+.login {
+  color: white;
+}
+.loginImg {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.login_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login_logo {
+  margin: auto;
+  width: 350px;
+}
+.login_content {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  border-radius: 7px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 2px solid lightgray;
+  padding: 20px;
+}
+.login_note {
+  font-size: small;
+  text-decoration: underline;
+}
+.login_content > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.login_content > form > h4 {
+  margin-bottom: 5px;
+}
+.login_content > form > input {
+  height: 35px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  background-color: white;
+  width: 98%;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+}
+.signinbutton {
+  background-color: tomato;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+  height: 35px;
+  margin-top: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+  opacity: 0.9;
+  font-weight: 700;
+  transition: 0.12s ease-in-out;
+}
+.signinbutton:hover {
+  opacity: 1;
+  border-radius: 10px;
+}
+.createbutton {
+  border-radius: 5px;
+  width: 100%;
+  height: 32px;
+  font-size: 14px;
+  border: 1px solid darkgray;
+  margin-top: 10px;
+  background-color: darkgray;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: 0.12s ease-in-out;
+}
+.createbutton:hover {
+  opacity: 1;
+  font-weight: 700;
+  border-radius: 18px;
+}

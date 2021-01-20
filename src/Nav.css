@@ -1,0 +1,76 @@
+.nav {
+  position: fixed;
+  top: 0;
+  height: 30px;
+  width: 100%;
+  z-index: 1;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+.nav_dark {
+  background-color: rgba(51, 51, 51, 0.97);
+}
+.nav_logo {
+  width: 240px;
+  object-fit: contain;
+  margin-top: 7px;
+}
+.nav_content {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 10px;
+  margin-right: 20px;
+  padding-right: 10px;
+}
+.nav_content > a {
+  text-decoration: none;
+}
+.favourites {
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 0.55vw;
+  padding: 0.4rem 1.5rem;
+  margin-right: 0.2rem;
+  background-color: rgba(51, 51, 51, 0.7);
+}
+.favourites:hover {
+  color: black;
+  background-color: #e6e6e6;
+  transition: all 0.3s;
+}
+button {
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.25s ease;
+}
+button:hover {
+  color: black;
+  background-color: ivory;
+}
+.search_button {
+  color: white;
+  font-size: 1.1rem;
+  background-color: tomato;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.login_button {
+  color: white;
+  font-size: 1.1rem;
+  background-color: tomato;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.user_info {
+  color: white;
+}
